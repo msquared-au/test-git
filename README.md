@@ -23,6 +23,21 @@ Just exploring git features
     git config --global tag.gpgsign true
     ```
 
+If you want to use ssh for `git push`, change the URL of your origin
+repo from https to ssh.  For example: to change
+from `https://github.com/yourusername/reponame`
+to `git@github.com:yourusername/reponame`,
+check the current origin with `git remote get-url origin`
+then change it
+with `git remote set-url origin git@github.com/yourusername/reponame`.
+
+### Troubleshooting
+
+*   You can test that ssh to github is working like so:
+    ```
+    ssh -T git@github.com
+    ```
+
 ## References
 
 I used these pages to work this stuff out:
