@@ -1,15 +1,8 @@
 # test-git
+
 Just exploring git features
 
-Let's see if this is verified when I commit via my ssh key
-
-Now let's see if I can sign this commit
-
-Hopefully this commit will be signed automatically
-
-Looks like it works!  Let's add some docs for future me to refer to...
-
-## Process summary
+## Process summary for signing commits
 
 1.  Make sure your details are set from github:
     ```
